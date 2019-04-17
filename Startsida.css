@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<title>SpaceTalk</title>
 	<link rel="shortcut icon" type="image/png" href="Jupiter.png">
+</head>
 	<body background="stars.jpg">
 	
 
@@ -25,15 +26,53 @@
 		 font-size:350%;
 		 float: middle;
 		 width: 50%;
-			}
 
-			li, ul{
-				color: white;
-				font-size:150%;
-				float: middle;
-				list-style: none;			
-			}
+		 a{
+	display:block;
+    text-decoration:none;
+	background-color: aqua;
+	display: block;
+    padding: 8px;
+    background-color: #dddddd;
+	}
+	
+	ul{
+	list-style: none	
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 3.5%;
+    background-color: gray;
+    width: 100%; 
+    position: fixed; 
+    overflow: auto;
+	}
+	
+	li{
+	margin: 0;
+	display: inline-block;
+	float: left;	
+		}
 		
+	nav{
+	width: 122px;	
+	background-color black;
+	width: 100%;
+	}
+	
+	a.hov:hover
+	{
+      background-color: yellow;	  
+	    }
+		
+		a.active {		
+    background-color: green;
+    color: white;
+}
+
+		}
+		
+
 	</style>	
 			
 		 
@@ -48,18 +87,17 @@
 
 	<nav>
 	
+			<ul>
 		
-		<ul>
 				<li><a class="active" href="">Hem</a></li>
 				<li><a class="hov" href="">Forum</a></li>
 				<li><a class="hov" href="">Merch</a></li>
 				<li><a class="hov" href="">Om oss</a></li>
-		</ul>
- 
+		
+			</ul>  
 		   
 		</nav>
 
 
 </body>
-</head>
 </html>
