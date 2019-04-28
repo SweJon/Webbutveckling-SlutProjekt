@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html lang="sv">
+<head>
+	<meta charset="utf-8" />
+	<title>SpaceTalk</title>
+	<link rel="shortcut icon" type="image/png" href="Jupiter.png">
+	<body background="stars.jpg">
+	
+
+	<style>
+		body { 
+			font-family: sans-serif;
+			width: 500px;
+			margin: auto;
+			}
+			img.float{
+			    float:  right;
+				width:  50%;
+				border: 2px solid black;
+								
+            }
+			
+			p, h1{
+		color:white;
+		 font-size:350%;
+		 float: middle;
+		 width: 50%;
+			}
+
+			li, ul{
+				color: white;
+				font-size:150%;
+				float: middle;
+				list-style: none;			
+			}
+		
+	</style>
+
+
+</body>
+</head>
+</html>
