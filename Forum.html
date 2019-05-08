@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title> 
+    <title>Forum</title> 
+    <link rel="shortcut icon" type="image/png" href="Jupiter.png">
     <body background="stars.jpg">
 
     <link href="Css.css" rel="stylesheet" type="text/css">
@@ -35,7 +36,25 @@
 }
 
             .grid-container > div {
+  background-color: rgb(205, 241, 137);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border: 4px solid white;
+}
+
+.tgrid-container {
+  display: grid;
+  grid: 100px / auto auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  color: black;
+  width: 50%;
   background-color: gray;
+}
+
+            .tgrid-container > div {
+  background-color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
@@ -60,16 +79,23 @@
 
 <body> <!-- De rutor där titeln och bilderna för diskussionerna ska finnas -->
 
+  <div class="tgrid-container">
+      <div class="itemtop">1</div>
+
+    </div>  
+  
         <div class="grid-container">
-          <div class="item1">1</div>
+          <div class="itemtop">1</div>
           <div class="item1">2</div>
           <div class="item1">3</div>
           <div class="item1">4</div>
           <div class="item1">5</div>
           <div class="item1">6</div>
 
+        </div>
+
+
         <div class="grid-container">
-            <div class="item2">1</div>
             <div class="item2">2</div>
             <div class="item2">3</div>
             <div class="item2">4</div>
