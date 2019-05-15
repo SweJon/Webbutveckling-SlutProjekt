@@ -55,7 +55,7 @@
 					}
 				
 			  .item1 {
-				grid-column-start: 3;
+				grid-column-start: 4;
 				grid-column-end: 6;
 			  }
 			  /* Bestämmer bredden på gridsen med titel och bild till tråd */		
