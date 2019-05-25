@@ -7,23 +7,12 @@
 
 	<style>
 
-		body { 
-			font-family: sans-serif;
-			width: 500px;
-			margin: auto;
-			}
-
 			p:nth-child(3) {
 				background:blueviolet;
 			}
 
 			#idtest {
 				background-color: rgba(145, 4, 145, 0.5);
-			}
-
-			#disklänk {
-				font-size: 50%;
-				float: right;
 			}
 
 			img.float{
@@ -53,7 +42,7 @@
 				vertical-align: text-bottom;
 			}
 
-			li, ul, dl{
+			li, ul, dl{     /* Färgen på texten i listor */
 				color: white;
 				font-size:150%;
 				float: middle;
@@ -80,6 +69,36 @@
 				font-size: 0.5ex;
 			}
 
+			form {
+				bottom: 50px;
+			}
+
+			#skrivenkomm {   /* Postion för de skrivna kommentarerna samt bredden/höjden */
+				width: 700px;
+				height: 100px;
+				position: absolute;
+				bottom: 50px;
+				left: 8%;
+			}
+
+			#trespaltslayout {
+				float: left;
+				width: 33.33%;
+				padding: 20px;
+			}
+
+			#kommentar {     /* Positionen för rutan där man ska skriva sin kommentar samt */
+				width: 500px;  
+				height: 100px;
+				position: absolute;
+				left: 430px;
+				top: 200px;
+			}
+
+			label, legend {
+				color: beige; 
+			}
+
 			thead {color:rgb(105, 255, 68);}
 			tbody {color:rgb(250, 76, 183);}			
 			tfoot {color:rgb(#00FFFF);}
@@ -93,46 +112,109 @@
 				height: 200px;  
 			}
 
+      #diskbild1{     /* Bilderna för diskussionen i forumet */
+				position: absolute;
+				bottom: 650px;
+				left: 100px;
+				border: 4px solid white;
+			}
+
+			#diskbild2{
+				position: absolute;
+				bottom: 450px;
+				left: 100px;
+				border: 4px solid white;
+			}
+
+			#diskbild3{
+				position: absolute;
+				bottom: 250px;
+				left: 100px;
+				border: 4px solid white;
+			}
+
+			#disklänk1 {      /* Länkarna för diskussionen i forumet */
+				font-size: 35%;
+				position: absolute;
+				left: 350px;
+				bottom: 700px;
+			}
+
+			#disklänk2 {
+				font-size: 35%;
+				position: absolute;
+				left: 350px;
+				bottom: 500px;
+			}
+
+			#disklänk3 {
+				font-size: 35%;
+				position: absolute;
+				left: 350px;
+				bottom: 300px;
+			}
+
 			#grad {
 				height: 200px;
-				background-color: rgba(255, 5, 5, 0); /* For browsers that do not support gradients */
+				background-color: rgba(255, 5, 5, 0);
 				background-image: linear-gradient(rgba(255, 5, 5, 0),rgba(255, 5, 5, 0.2), rgba(255, 5, 5, 0) );
+			}
 
-			.grid-container {
+			.grid-container {   /* Den gråa bottendelen i forumsdelen */
 				display: grid;
-				grid-template-columns: auto auto auto auto auto auto;
-				grid-gap: 10px;
-				background-color: #2196F3;
+				grid: 760px / auto auto auto auto auto auto;
+				grid-gap: 20px;
 				padding: 10px;
-			  }
-			  
-			  .grid-container > div {
-				background-color: rgba(255, 255, 255, 0.856);
+				color: black;
+				width: 50%;
+				background-color: gray;
+			
+				position: absolute;
+				top: 120px;
+				left: 50%;
+				margin-right: -50%;
+				transform: translate(-50%, 0%) 
+			}
+			
+									.grid-container {
+				background-color: rgb(136, 133, 133);
 				text-align: center;
-				padding: 20px;
+				padding: 20px 0;
 				font-size: 30px;
-			  }
-				
-				.itemtop {
-					grid-column-start: 2;
-					grid-column-end: 6;
+				border: 4px solid white;
+			
+				top: 140px;
+				width: 960px;
+			}				
+
+				.tgrid-container {     /* Den svarta toppen i forumsdelen */
+					display: grid;
+					grid: 100px / auto auto auto auto auto auto;
+					grid-gap: 10px;
+					padding: 10px;
 					color: black;
-					}
+					width: 50%;
+					background-color: rgb(136, 133, 133);
 				
-			  .item1 {
-				grid-column-start: 4;
-				grid-column-end: 6;
-			  }
-			  /* Bestämmer bredden på gridsen med titel och bild till tråd */		
-			  .item2 {
-				  grid-column-start: 2;
-				  grid-column-end: 3;
-			  }
+					position: absolute;
+								left: 50%;
+								margin-right: -50%;
+								transform: translate(-50%, 0%)
+				
+				}
+				
+				
+										.tgrid-container {
+					background-color: rgb(0, 0, 0);
+					text-align: center;
+					padding: 20px 0;
+					font-size: 30px;
+					border: 4px solid white;
+					top: 0px;
+				
+				}
 		
 	</style>
-
-<div class="grid-container">
-  <div class="item1">1</div>
 
 
 </body>

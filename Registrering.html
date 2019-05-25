@@ -1,0 +1,82 @@
+<!DOCTYPE>
+<html lang="sv">
+<head>
+	<meta charset="utf-8" />
+	<title>SpaceTalk</title>
+	<link rel="shortcut icon" type="image/png" href="Jupiter.png"> <!-- Ikonen för hemsidan finns på varje sida -->
+	<body background="stars.jpg"></body>
+			<link href="Css.css" rel="stylesheet" type="text/css">
+
+	
+
+	<style>
+
+		body { 
+			font-family: sans-serif;
+			width: 500px;
+			margin: auto;
+			}		
+		
+	</style>	
+			
+		 
+<body>
+
+	<nav>
+	
+		
+		<ul>     <!-- Länkar till de andra delarna av sidan -->
+				<li><a class="hov" href="Startsida.html">Hem</a></li>
+				<li><a class="hov" href="Forum.html">Forum</a></li>
+				<li><a class="hov" href="Merch.html">Merch</a></li>
+				<li><a class="hov" href="Om oss.html">Om oss</a></li>
+        </ul>
+        
+        <h1>
+                Skaffa ett SpaceTalk konto
+        </h1>
+
+
+        <form action="/test_sida.php"> 
+				<fieldset>
+					<style>
+						input:invalid {
+							border: 2px solid red;
+							
+						}
+					</style>    
+					<legend>Registrera dig</legend> <!-- Uppgifter du måste skriva in för att "registrera" dig -->
+					<label>
+			   Namn:
+					<input type = "text" pattern="[A-Za-z]{2,}" name="Namn" title="Namn">
+					<label>
+			   Mail:
+					<input type = "email" name="Emailadress" pattern="[A-Za-z]{0,} {@}" title="Mail">
+					<label>
+			  Lösenord:
+					<input type = "password" title="Lösenord" name="Lösenord">
+					<label>
+
+                Kön:
+                    <input type="radio" name="kön" value="man" checked> Man<br>
+                    <input type="radio" name="kön" value="kvinna"> Kvinna<br> 
+                    
+                    
+                Kryssa för att acceptera våra vilkor:
+                <input type="checkbox" name="Vilkor" value="Vilkor"> Ja jag accepterar vilkoren<br>
+
+                <input type = "submit" value = "skicka" >
+					
+		
+				</fieldset>
+            </form>
+
+
+
+ 
+
+
+
+</body>
+</head>
+</html>

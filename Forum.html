@@ -17,119 +17,50 @@
 			width: auto;
             margin: auto;
             background-color: none;
-			}		
-
-            .grid-container {
-  display: grid;
-  grid: 300px / auto auto auto auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-  color: black;
-  width: 50%;
-  background-color: gray;
-
-  position: absolute;
-        top: 120px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, 0%) 
-}
-
-            .grid-container > div {
-  background-color: hsl(213, 100%, 50%);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-  border: 4px solid white;
-}
-
-
-.tgrid-container {
-  display: grid;
-  grid: 100px / auto auto auto auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-  color: black;
-  width: 50%;
-  background-color: rgb(136, 133, 133);
-
-  position: absolute;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, 0%)
-
-}
-
-
-            .tgrid-container > div {
-  background-color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-  border: 4px solid white;
-
-}
+			}
 		
 	</style>
 
 <body> <!-- De rutor där titeln och bilderna för diskussionerna ska finnas -->
 
+
   <div class="tgrid-container">
+
+      <nav>
+	
+		
+          <ul>     <!-- Länken till de andra delarna av sidan -->
+              <li><a class="hov" href="Startsida.html">Hem</a></li> 
+              <li><a class="hov" href="Forum.html">Forum</a></li>
+              <li><a class="hov" href="Merch.html">Merch</a></li>
+              <li><a class="hov" href="Om oss.html">Om oss</a></li>
+          </ul>
+             
+          </nav>
+
       <div class="itemtop">1</div>
 
-    </div>  
-  
-  
-        <div class="grid-container">
-          <div class="item1">1</div>
-          <div class="item1">2</div>
-          <div class="item1">3</div>
-          <div class="item1">4</div>
-          <div class="item1">5</div>
-
-        </div>
+   
 
 
         <div class="grid-container">
-            <div class="item2">1</div>
-            <div class="item2">2</div>
-            <div class="item2">3</div>
-            <div class="item2">4</div>
-            <div class="item2">5</div>
+            <div class="item2"></div>
+            <div class="item2"></div>
+            <div class="item2"></div>
+
+      <p><a id="disklänk1" href="Diskussion1.html">Diskussion 1</a></p>
+      <p><a id="disklänk2" href="Diskussion2.html">Diskussion 2</a></p>
+      <p><a id="disklänk3" href="Diskussion3.html">Diskussion 3</a></p>
+
+      <h2></h2>
+      <h2></h2>
+      <h2></h2>
+
+      <img id="diskbild1" src="test1.jpg" alt="test1" width="200" height="140">
+      <img id="diskbild2" src="test2.jpg" alt="test2" width="200" height="140">
+      <img id="diskbild3" src="test3.jpg" alt="test3" width="200" height="140">
         
         </div>
-
-
-        <form>
-          <fieldset>
-              <style>
-                  input:invalid {
-                      border: 2px solid red;
-                  }
-              </style>    
-              <legend> Comment</legend>
-         Name:
-              <input type = "text" pattern="[A-Za-z]{2,}" title="Name">
-              <br>
-         Mail:
-              <input type = "text" pattern="[A-Za-z]{2,}" title="Mail">
-              <br>
-        Text:
-              <input type = "Text" title="Comment">
-              <br>
-              <input type = "submit" value = "skicka" >
-              
-  
-          </fieldset>
-      </form>
-
-      <img src="test1.jpg" alt="test1" width="100" height="70">
-      <img src="test2.jpg" alt="test2" width="100" height="70">
-      <img src="test3.jpg" alt="test3" width="100" height="70">
-
-      <p><a id="disklänk" href="Diskussion1.html">Test1</a></p>
-      <p><a id="disklänk" href="Diskussion2.html">Test2</a></p>
-      <p><a id="disklänk" href="Diskussion3.html">Test3</a></p>
 
     
 </head>

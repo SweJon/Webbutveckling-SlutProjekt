@@ -1,32 +1,91 @@
-<!DOCTYPE>
-<html lang="sv">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<title>SpaceTalk</title>
-	<link rel="shortcut icon" type="image/png" href="Jupiter.png">
-	<body background="stars.jpg"></body>
-			<link href="Css.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forum</title> 
+    <link rel="shortcut icon" type="image/png" href="Jupiter.png">
+    <body background="stars.jpg">
 
-	
+    <link href="Css.css" rel="stylesheet" type="text/css">
 
+    
 	<style>
-
 		body { 
 			font-family: sans-serif;
-			width: 500px;
-			margin: auto;
+			width: auto;
+            margin: auto;
+            background-color: none;
 			}		
 		
-	</style>	
-			
-		<ul>     <!-- Länken till de andra delarna av sidan -->
-				<li><a class="active" href="Startsida.html">Hem</a></li>
-				<li><a class="hov" href="Forum.html">Forum</a></li>
-				<li><a class="hov" href="Merch.html">Merch</a></li>
-				<li><a class="hov" href="Om oss.html">Om oss</a></li>
-		</ul>
+	</style>
+
+<body> 
 
 
-</body>
+  <div class="tgrid-container">
+
+      <nav>
+	
+		
+          <ul>     <!-- Länken till de andra delarna av sidan -->
+              <li><a class="hov" href="Startsida.html">Hem</a></li> 
+              <li><a class="hov" href="Forum.html">Forum</a></li>
+              <li><a class="hov" href="Merch.html">Merch</a></li>
+              <li><a class="hov" href="Om oss.html">Om oss</a></li>
+          </ul>
+             
+          </nav>
+
+   
+
+
+        <div class="grid-container">
+
+	  <img src="test1.jpg" alt="test1" width="400" height="280">
+
+	  <h2>Ämne</h2>
+	  
+
+	  <form>
+			<fieldset>
+				<style>
+					input:invalid {
+						border: 2px solid red;
+						
+					}
+				</style>    
+				<legend> Kommentar</legend> <!-- Rutorna där du ska skriva din kommentar -->
+		   Namn:
+				<input type = "text" pattern="[A-Za-z]{2,}" title="Namn">
+				<br>
+		   Mail:
+				<input type = "text" pattern="[A-Za-z]{2,}" title="Mail">
+				<br>
+				<input type = "submit" value = "skicka" >
+				
+	
+			</fieldset>
+		</form>
+		
+		<textarea name="kommentar" id="kommentar">
+				Skriv din text här...</textarea>
+
+
+				<p id="skrivenkomm">
+
+						<textarea name="kommentar" id="skrivenkomm">
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum libero ad sunt unde consectetur. Est et, sed molestiae dolor architecto provident in numquam maiores necessitatibus ut tempora perferendis, nulla impedit? </textarea>
+				</p>				
+				
+
+        
+		</div>
+		
+		
+
+    
 </head>
+</body>
 </html>
