@@ -1,96 +1,89 @@
 <!DOCTYPE>
 <html lang="sv">
+
 <head>
 	<meta charset="utf-8" />
 	<title>SpaceTalk</title>
+	<link href="Css.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" type="image/png" href="Jupiter.png"> <!-- Ikonen för hemsidan finns på varje sida -->
-	<body background="stars.jpg"></body>
-			<link href="Css.css" rel="stylesheet" type="text/css">
+</head>
 
-	
 
-	<style>
 
-		body { 
-			font-family: sans-serif;
-			width: 500px;
-			margin: auto;
-			}		
-		
-	</style>	
-			
-		 
+
 <body>
 
+
 	<h1>
-        Välkommen till SpaceTalk
+		Välkommen till SpaceTalk
 	</h1>
 
 	<nav>
-	
-		
-		<ul>     <!-- Länken till de andra delarna av sidan -->
-				<li><a class="active" href="Startsida.html">Hem</a></li>
-				<li><a class="hov" href="Forum.html">Forum</a></li>
-				<li><a class="hov" href="Merch.html">Merch</a></li>
-				<li><a class="hov" href="Om oss.html">Om oss</a></li>
+
+
+		<ul>
+			<!-- Länken till de andra delarna av sidan -->
+			<li><a class="active" href="Startsida.html">Hem</a></li>
+			<li><a class="hov" href="Forum.html">Forum</a></li>
+			<li><a class="hov" href="Merch.html">Merch</a></li>
+			<li><a class="hov" href="Om oss.html">Om oss</a></li>
 		</ul>
 
 		<form>
-				<fieldset>
-					<style>
-						input:invalid {
-							border: 2px solid red;
-							
-						}
-					</style>    
-					<legend>Logga in</legend>
-					<label>
-			   Name:
-					<input type = "text" pattern="[A-Za-z]{2,}" title="Name">
-					<label>
-			   Mail:
-					<input type = "email" name="Emailadress" pattern="[A-Za-z]{0,} {@}" title="Mail">
-					<label>
-			  Password:
-					<input type = "password" title="Comment">
-					<label>
-					<input type = "submit" value = "skicka" >
-					
-		
-				</fieldset>
-			</form>
+			<fieldset>
+				<style>
+					input:invalid {
+						border: 2px solid red;
 
-			<h1>Eller registrera dig<a class="hov" href="Registrering.html"> här</a></h1>
- 
+					}
+				</style>
+				<legend>Logga in</legend>
+				<label>
+					Name:
+					<input type="text" pattern="[A-Za-z]{2,}" title="Name">
+					<label>
+						Mail:
+						<input type="email" name="Emailadress" pattern="[A-Za-z]{0,} {@}" title="Mail">
+						<label>
+							Password:
+							<input type="password" title="Comment">
+							<label>
+								<input type="submit" value="skicka">
+
+
+			</fieldset>
+		</form>
+
+		<h1>Eller registrera dig<a class="hov" href="Registrering.html"> här</a></h1>
+
 
 		<p id="rundahörnbild"></p>
 
 		<div id="grad"></div>
-		   
-		</nav>
 
-         <p lang="se">Tre anledningar till att använda SpaceTalk</p>
+	</nav>
 
-		<ol start="1">
-				<li>Intressenata diskussioner</li>
-				<li>Aktiv användarbas</li>
-				<li>Ingen reklam!</li>
-		</ol> 
+	<p lang="se">Tre anledningar till att använda SpaceTalk</p>
 
-		<div class="clearfix" id="trespaltslayout">
-				<div style="background-color: darkgray">
-				<p>1:a rutan</p>
-				</div>
-				<div class="box" style="background-color:gray">
-				<p>2:a rutan</p>
-				</div>
-				<div class="box" style="background-color:lightgray">
-				<p>3:e rutan.</p>
-				</div>
-			  </div>
+	<ol start="1">
+		<li>Intressenata diskussioner</li>
+		<li>Aktiv användarbas</li>
+		<li>Ingen reklam!</li>
+	</ol>
+
+	<div class="clearfix" id="trespaltslayout">
+		<div style="background-color: darkgray">
+			<p>1:a rutan</p>
+		</div>
+		<div class="box" style="background-color:gray">
+			<p>2:a rutan</p>
+		</div>
+		<div class="box" style="background-color:lightgray">
+			<p>3:e rutan.</p>
+		</div>
+	</div>
 
 
 </body>
-</head>
+
 </html>

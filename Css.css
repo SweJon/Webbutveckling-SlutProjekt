@@ -1,12 +1,4 @@
-<!DOCTYPE>
-<html lang="sv">
-<head>
-	<meta charset="utf-8" />
-	<title>SpaceTalk</title>
-	
-
-	<style>
-
+	         
 			p:nth-child(3) {
 				background:blueviolet;
 			}
@@ -22,10 +14,16 @@
 								
             }
 			
+			body {
+				font-family: sans-serif;
+				width: 500px;
+				margin: auto;	
+				background-image: url("stars.jpg");
+			}
+
 			p, h1{
 		color:white;
 		 font-size:350%;
-		 float: middle;
 		 width: 50%;
 			}
 
@@ -44,8 +42,7 @@
 
 			li, ul, dl{     /* Färgen på texten i listor */
 				color: white;
-				font-size:150%;
-				float: middle;
+				font-size:150%;				
 				list-style: none;			
 			}
 
@@ -101,7 +98,7 @@
 
 			thead {color:rgb(105, 255, 68);}
 			tbody {color:rgb(250, 76, 183);}			
-			tfoot {color:rgb(#00FFFF);}
+			tfoot {color:#00FFFF;}
 			
 			#rundahörnbild {
 				border-radius: 50px;
@@ -213,10 +210,3 @@
 					top: 0px;
 				
 				}
-		
-	</style>
-
-
-</body>
-</head>
-</html>
